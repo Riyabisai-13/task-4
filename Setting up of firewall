@@ -1,0 +1,21 @@
+# Setting of Firewall
+
+## Open firewall configuration tool
+
+Adding rule to block inbound traffic 
+
+Step 1: Opoen the Windows Defender Firewall 
+
+Step 2: Click on the Advanced settings option.
+
+Step 3: Click on the "Inbound rules" option on the Left panel 
+
+Step 4: Go to the New rule option in the right side of the page.
+
+Step 5: In the new rule option ,click on the option "port" as the rule type,then mention the specific port number that is 23, and then choose "block the connection" option and select all (domain, public, private) and give a specific name as telnet.
+
+Step 6: Open command prompt, and type the command "telnet along with the specific ip address of the localhost.)
+
+Step 7: The command prompt will display couldnot connect..connection failed, which showed that the inbound settings in the firewall was working.
+
+Step 8: Then in the Windows defender firewall again disable the rule.
